@@ -13,14 +13,29 @@
     
     </head>
     <body style="background: red;">
-        <script>
-            alert('hello');
-        </script>
+     <h1 onclick="heiPåDeg();">Trykk på meg!</h1>"
         <div style="background-color: orange;">
             <div style="background-color: yellow; height: 30vh;">
                 <h1>Velkommen til min testsite</h1>
                 <h2>Her kommer jeg til å teste ut javascript på sikt, og hvordan bruke Git.</h2>
             </div>
         </div>
+
+        <script>
+        function heiPåDeg() {
+        alert('Hei');
+        alert('På');
+        alert('Deg!');
+        }
+        </script>
+
+        <h1 id="overskrift" onclick="endreTekst()">Trykk på meg!</h1>
+        <script>
+            function endreTekst(){
+                document.getElementById('overskrift').innerHTML = 'Takk :-)';
+            }
+        </script>
+
+
     </body>
 </html> 
