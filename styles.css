@@ -1,0 +1,71 @@
+body {
+    margin-left: 20px;
+    
+}
+
+.card {
+    width: 500px;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    margin: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+
+}
+
+.innerCard{
+    padding: 10px;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 1% 0;
+    border: 1px solid gray;
+    user-select: none;
+    
+}
+
+
+
+.green {
+    background-color: #FF6F61;
+}
+
+.yellow {
+    background-color: #6B5B95;
+}
+
+.red {
+    background-color: #88B04B;
+}
+
+.blue {
+    background-color: #F7CAC9;
+}
+
+.dark {
+    background-color: #36393f;
+}
+
+p {
+    padding-left: 10px;
+}
+
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 520px);
+    width: auto;
+}
